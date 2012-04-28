@@ -31,17 +31,8 @@ void mousePressed() {
 }
 
 void keyPressed() {
-  switch(key) {
-  // change color mode to RGB
-  case 'r':
-    colorMode(RGB);
-    break;
-  //change color mode to HSB
-  case 'h':
-    colorMode(HSB);
-    break;
   // clear the screen
-  case 'c':
+  if (key == 'c') {
     background(bg);
   }
 }

@@ -25,6 +25,12 @@ Cinder
 Download the platform and follow the installation instructions at
 http://libcinder.org/
 
+Create a new project the same way you would for openFrameworks.  
+
+Duplicate the BasicApp folder in the Cinder samples and rename the folder to cinderExample.  Move this folder to where you would like put your Cinder apps - it should be in the same relative position as the samples folder.  Open the project in XCode (or other IDE) and rename the project to cinderExample.  In XCode, this is is done by clicking on the project name in the left hand column. 
+
+Delete basicApp.cpp and add cinderExample/cinderExample.cpp to the project.
+
 
 processing.py
 -------------
