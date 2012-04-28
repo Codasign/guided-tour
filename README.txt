@@ -34,3 +34,9 @@ Delete basicApp.cpp and add cinderExample/cinderExample.cpp to the project.
 
 processing.py
 -------------
+Download the distribution
+https://github.com/jdf/processing.py
+
+To run the processingpyExample, open a terminal and change directory to where you have placed the processing.py distribution.  Then alter the below command to reflect the correct relative path to the processing-py.jar.
+
+$ java -jar processing-py.jar ../guided-tour/processingpyExample/processingpyExample.py

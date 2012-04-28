@@ -50,7 +50,6 @@ void oFExample::mouseDragged(int x, int y, int button){
 void oFExample::mousePressed(int x, int y, int button){
     // change line thickness when mouse button is pressed
     ofSetLineWidth(float(mouseY)/ofGetScreenHeight()*7.0);
-    cout << float(mouseY)/ofGetScreenHeight()*7.0;
 }
 
 //--------------------------------------------------------------
